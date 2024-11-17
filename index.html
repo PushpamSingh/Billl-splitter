@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Split</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="bill-input">
+            <p>Bill</p>
+            <div class="inputContainer">
+                <input type="number" value="0">
+                <span>₹</span>
+            </div>
+            <h3>Select Tip in percent(%)</h3>
+            <div class="tip-input">
+                <span class="tips">5</span>
+                <span class="tips">10</span>
+                <span class="tips">15</span>
+                <span class="tips">25</span>
+                <span class="tips">50</span>
+                <span class="tips">75</span>
+            </div>
+           <div class="tip">
+            <input type="number" placeholder="Custom Tip" class="Customtip" value="0">
+            <label>%</label>
+           </div>
+            <h3>Number Of People</h3>
+            <input type="number" class="Custominput" placeholder="No of people" value="0">
+            <button class="billbtn">Generate Bill</button>
+        </div>
+        <div class="bill-output">
+            <div class="tip-amount">
+                <h3>Tip amount:</h3>
+                <h4>₹0</h4>
+            </div>
+            <div class="total-amount">
+                <h3>Total amount:</h3>
+                <h4>₹0</h4>
+            </div>
+            <div class="Each-amount">
+                <h3>Each Person Bill:</h3>
+                <h4>₹0</h4>
+            </div>
+            <button class="resetbtn">Reset</button>
+        </div>
+    </main>
+    
+</body>
+</html>
